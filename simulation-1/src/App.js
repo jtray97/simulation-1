@@ -15,7 +15,10 @@ class App extends Component {
     return (
       <div className="App">
         <Adding/>
-        <Product img={'http://via.placeholder.com/350x150'} name={'fancy'} price={35}/>
+        {/* <Product img={'http://via.placeholder.com/350x150'} name={'fancy'} price={35}/> */}
+        <div className="AppProductsDiv">
+        
+        </div>
       </div>
     );
   }
